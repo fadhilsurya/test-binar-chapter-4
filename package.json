@@ -1,7 +1,6 @@
 {
   "name": "test_express_week_6",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,9 +12,21 @@
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "express-validator": "^6.14.3"
+    "express-validator": "^6.14.3",
+    "pg": "^8.9.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.28.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadhilsurya/test-binar-chapter-4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fadhilsurya/test-binar-chapter-4/issues"
+  },
+  "homepage": "https://github.com/fadhilsurya/test-binar-chapter-4#readme",
+  "description": ""
 }
